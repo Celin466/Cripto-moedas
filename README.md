@@ -1,16 +1,20 @@
-# moedasvirtuais
+Projeto Flutter que consome dados de criptomoedas em tempo real. Permite buscar, visualizar preços em USD/BRL e detalhes de cada moeda listada.
 
-A new Flutter project.
+Funcionalidades:
+Listagem de criptomoedas
+Busca por símbolo (ex: BTC, ETH, SOL)
+Detalhes da moeda em modal
+Conversão para BRL (base fixa: 1 USD = 5.73 BRL)
 
-## Getting Started
+Como rodar o projeto :
+Possuir Flutter instalado (versão 3.x ou superior recomendada)
+Possuir Emulador Android ou dispositivo físico conectado
 
-This project is a starting point for a Flutter application.
+Clone ou instale o repositório na sua máquina
+# Instale as dependências
+flutter pub get
+# Rode no emulador ou dispositivo conectado
+flutter run
+# Caso precise atualize os pacotes
+flutter pub upgrade
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
